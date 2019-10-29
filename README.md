@@ -6,7 +6,8 @@ In the package manager console, enter the following command (it may take a minut
 Customer Query
 ```
 {
-  customers(id: "1") {
+  customers(id: "1") 
+  {
     id
     firstName
     lastName
@@ -47,4 +48,4 @@ Order Query
 ### Load Testing
 https://github.com/codesenberg/bombardier
 Bombardier is a great tool for testing your service.  You will find in the root of this project a file named "bombard.json", you can run the following command to load test
-`bombardier -m POST -H "Content-Type: application/json" -f bombard.json http://localhost:5000/api/graphql`
+```bombardier -m POST -H "Content-Type: application/json" -f bombard.json http://localhost:5000/api/graphql```
