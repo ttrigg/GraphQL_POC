@@ -27,7 +27,7 @@ Order Query
 {
   orders(id: "365")
   {
-  	id
+    id
     orderDate
     lineItems
     {
@@ -35,13 +35,13 @@ Order Query
       itemId
       quantity
     }
-	}
+  }
 }
 ```
 ## Resources
 ### Github Source
-GraphQL library used in this example https://github.com/graphql-dotnet/graphql-dotnet
-GraphiQL editor used in this example https://github.com/JosephWoodward/graphiql-dotnet
+* GraphQL library used in this example https://github.com/graphql-dotnet/graphql-dotnet
+* GraphiQL editor used in this example https://github.com/JosephWoodward/graphiql-dotnet
 ### Documentation
 * Learn GraphQL - https://graphql.org/learn/
 ### Load Testing
