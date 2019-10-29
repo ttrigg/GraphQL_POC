@@ -45,6 +45,7 @@ Order Query
 * GraphiQL editor used in this example https://github.com/JosephWoodward/graphiql-dotnet
 ### Documentation
 * Learn GraphQL - https://graphql.org/learn/
+* Examples - https://github.com/graphql-dotnet/example-orders
 ### Load Testing
 https://github.com/codesenberg/bombardier
 Bombardier is a great tool for testing your service.  You will find in the root of this project a file named "bombard.json", you can run the following command to load test
