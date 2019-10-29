@@ -1,0 +1,17 @@
+C:\Repos\AdHoc\GraphQLTest\GraphQLTest\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Repos\AdHoc\GraphQLTest\GraphQLTest\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Repos\AdHoc\GraphQLTest\GraphQLTest\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Repos\AdHoc\GraphQLTest\GraphQLTest\bin\Debug\netcoreapp2.1\GraphQLTest.deps.json
+C:\Repos\AdHoc\GraphQLTest\GraphQLTest\bin\Debug\netcoreapp2.1\GraphQLTest.runtimeconfig.json
+C:\Repos\AdHoc\GraphQLTest\GraphQLTest\bin\Debug\netcoreapp2.1\GraphQLTest.runtimeconfig.dev.json
+C:\Repos\AdHoc\GraphQLTest\GraphQLTest\bin\Debug\netcoreapp2.1\GraphQLTest.dll
+C:\Repos\AdHoc\GraphQLTest\GraphQLTest\bin\Debug\netcoreapp2.1\GraphQLTest.pdb
+C:\Repos\AdHoc\GraphQLTest\GraphQLTest\obj\Debug\netcoreapp2.1\GraphQLTest.RazorAssemblyInfo.cache
+C:\Repos\AdHoc\GraphQLTest\GraphQLTest\obj\Debug\netcoreapp2.1\GraphQLTest.RazorAssemblyInfo.cs
+C:\Repos\AdHoc\GraphQLTest\GraphQLTest\obj\Debug\netcoreapp2.1\GraphQLTest.AssemblyInfoInputs.cache
+C:\Repos\AdHoc\GraphQLTest\GraphQLTest\obj\Debug\netcoreapp2.1\GraphQLTest.AssemblyInfo.cs
+C:\Repos\AdHoc\GraphQLTest\GraphQLTest\obj\Debug\netcoreapp2.1\GraphQLTest.RazorTargetAssemblyInfo.cache
+C:\Repos\AdHoc\GraphQLTest\GraphQLTest\obj\Debug\netcoreapp2.1\GraphQLTest.dll
+C:\Repos\AdHoc\GraphQLTest\GraphQLTest\obj\Debug\netcoreapp2.1\GraphQLTest.pdb
+C:\Repos\AdHoc\GraphQLTest\GraphQLTest\obj\Debug\netcoreapp2.1\GraphQLTest.csprojAssemblyReference.cache
+C:\Repos\AdHoc\GraphQLTest\GraphQLTest\bin\Debug\netcoreapp2.1\bombard.json
