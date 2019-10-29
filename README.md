@@ -1,10 +1,10 @@
 ﻿# GraphQL Example
 ## Installation
 In the package manager console, enter the following command (it may take a minute)
-`update-database -Context GraphQLTest.Domain.Company.CompanyDBContext`
+```update-database -Context GraphQLTest.Domain.Company.CompanyDBContext```
 ## Example Queries
 Customer Query
-`
+```
 {
   customers(id: "1") {
     id
@@ -21,9 +21,9 @@ Customer Query
     }
   }
 }
-`
+```
 Order Query
-`
+```
 {
   orders(id: "365")
   {
@@ -37,7 +37,7 @@ Order Query
     }
 	}
 }
-`
+```
 ## Resources
 ### Github Source
 GraphQL library used in this example https://github.com/graphql-dotnet/graphql-dotnet
