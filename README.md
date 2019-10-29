@@ -1,7 +1,9 @@
 ﻿# GraphQL Example
 ## Installation
 In the package manager console, enter the following command (it may take a minute)
-```update-database -Context GraphQLTest.Domain.Company.CompanyDBContext```
+```
+update-database -Context GraphQLTest.Domain.Company.CompanyDBContext
+```
 ## Example Queries
 Customer Query
 ```
@@ -49,4 +51,6 @@ Order Query
 ### Load Testing
 https://github.com/codesenberg/bombardier
 Bombardier is a great tool for testing your service.  You will find in the root of this project a file named "bombard.json", you can run the following command to load test
-```bombardier -m POST -H "Content-Type: application/json" -f bombard.json http://localhost:5000/api/graphql```
+```
+bombardier -m POST -H "Content-Type: application/json" -f bombard.json http://localhost:5000/api/graphql
+```
