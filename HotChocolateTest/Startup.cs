@@ -6,9 +6,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using GraphQLFoundation.Domain.Company;
-using GraphQLFoundation.Services.Company;
-using GraphQLFoundation.AutoMapper;
 using HotChocolate.AspNetCore;
+using HotChocolateTest.AutoMapper;
+using HotChocolateTest.Services.Company;
 
 namespace HotChocolateTest
 {
