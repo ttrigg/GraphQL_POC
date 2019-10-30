@@ -1,5 +1,0 @@
-{
-    "query": "{\n  customers(id: \"1\") {\n    id\n    firstName\n    lastName\n    dateOfBirth\n  }\n}",
-    "variables": null,
-    "operationName": null
-}
