@@ -27,7 +27,7 @@ Order Query
 {
   orders(id: "365")
   {
-  	id
+    id
     orderDate
     lineItems
     {
@@ -35,7 +35,7 @@ Order Query
       itemId
       quantity
     }
-	}
+  }
 }
 ```
 ## Resources

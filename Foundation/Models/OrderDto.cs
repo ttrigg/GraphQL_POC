@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Runtime.Serialization;
 
-namespace GraphQLTest.Models
+namespace GraphQLFoundation.Models
 {
     [DataContract]
     public class OrderDto

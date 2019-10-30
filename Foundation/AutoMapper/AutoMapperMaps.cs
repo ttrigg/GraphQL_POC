@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GraphQLTest.AutoMapper
+namespace GraphQLFoundation.AutoMapper
 {
     public class AutoMapperMaps : Profile
     {

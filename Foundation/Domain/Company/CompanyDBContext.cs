@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GraphQLTest.Domain.Company
+namespace GraphQLFoundation.Domain.Company
 {
     public class CompanyDBContext : DbContext
     {
@@ -22,8 +22,8 @@ namespace GraphQLTest.Domain.Company
             var rnd = new Random();
             int id = 1;
 
-            // add-migration "Initial" -Context GraphQLTest.Domain.Company.CompanyDBContext
-            // update-database -Context GraphQLTest.Domain.Company.CompanyDBContext
+            // add-migration "Initial" -Context GraphQLFoundation.Domain.Company.CompanyDBContext
+            // update-database -Context GraphQLFoundation.Domain.Company.CompanyDBContext
 
             #region Fill junk data
 

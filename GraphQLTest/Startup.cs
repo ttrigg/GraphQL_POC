@@ -1,6 +1,4 @@
 ﻿using AutoMapper;
-using GraphQLTest.Domain.Company;
-using GraphQLTest.Services.Company;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -8,8 +6,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using GraphiQl;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Serialization;
+using GraphQLFoundation.Domain.Company;
+using GraphQLFoundation.Services.Company;
+using GraphQLFoundation.AutoMapper;
 
 namespace GraphQLTest
 {
@@ -46,7 +45,7 @@ namespace GraphQLTest
                 options.UseSqlServer(@"Data Source=.;Initial Catalog=graphql_example_Company;Integrated Security=True;"));
 
             // Automapper
-            services.AddAutoMapper(typeof(AutoMapper.AutoMapperMaps));
+            services.AddAutoMapper(typeof(AutoMapperMaps));
 
             // DI
             services.AddTransient<ICompany, Company>();

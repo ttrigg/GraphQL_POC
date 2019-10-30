@@ -4,13 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using AutoMapper.QueryableExtensions;
-using GraphQLTest.Domain.Company;
-using GraphQLTest.Models;
+using GraphQLFoundation.Domain.Company;
+using GraphQLFoundation.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace GraphQLTest.Services.Company
+namespace GraphQLFoundation.Services.Company
 {
-    internal class Company : ICompany
+    public class Company : ICompany
     {
         private readonly CompanyDBContext _companyDBContext;
         private readonly IConfigurationProvider _configurationProvider;

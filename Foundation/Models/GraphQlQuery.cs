@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GraphQLTest.Models
+namespace GraphQLFoundation.Models
 {
     public class GraphQlQuery
     {

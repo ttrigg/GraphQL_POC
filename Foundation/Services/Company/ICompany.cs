@@ -1,9 +1,9 @@
-﻿using GraphQLTest.Models;
+﻿using GraphQLFoundation.Models;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GraphQLTest.Services.Company
+namespace GraphQLFoundation.Services.Company
 {
     public interface ICompany
     {

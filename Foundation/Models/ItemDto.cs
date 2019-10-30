@@ -4,16 +4,18 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Runtime.Serialization;
 
-namespace GraphQLTest.Models
+namespace GraphQLFoundation.Models
 {
     [DataContract]
-    public class LineItemDto
+    public class ItemDto
     {
         [DataMember]
         public int Id { get; set; }
         [DataMember]
-        public int ItemId { get; set; }
+        public string Name { get; set; }
         [DataMember]
-        public int Quantity { get; set; }
+        public string SKU { get; set; }
+        [DataMember]
+        public int Count { get; set; }
     }
 }

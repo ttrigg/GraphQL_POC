@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using GraphQL;
 using GraphQL.Types;
-using GraphQLTest.Models;
-using GraphQLTest.Services.Company;
+using GraphQLFoundation.Models;
+using GraphQLFoundation.Services.Company;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GraphQLTest.Controllers

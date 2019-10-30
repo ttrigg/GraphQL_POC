@@ -15,3 +15,6 @@ C:\Repos\AdHoc\GraphQLTest\GraphQLTest\obj\Debug\netcoreapp2.1\GraphQLTest.dll
 C:\Repos\AdHoc\GraphQLTest\GraphQLTest\obj\Debug\netcoreapp2.1\GraphQLTest.pdb
 C:\Repos\AdHoc\GraphQLTest\GraphQLTest\obj\Debug\netcoreapp2.1\GraphQLTest.csprojAssemblyReference.cache
 C:\Repos\AdHoc\GraphQLTest\GraphQLTest\bin\Debug\netcoreapp2.1\bombard.json
+C:\Repos\AdHoc\GraphQLTest\GraphQLTest\bin\Debug\netcoreapp2.1\GraphQLFoundation.dll
+C:\Repos\AdHoc\GraphQLTest\GraphQLTest\bin\Debug\netcoreapp2.1\GraphQLFoundation.pdb
+C:\Repos\AdHoc\GraphQLTest\GraphQLTest\obj\Debug\netcoreapp2.1\GraphQLTest.csproj.CopyComplete

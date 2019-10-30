@@ -2,17 +2,22 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using System.ComponentModel.DataAnnotations;
+using System.Runtime.Serialization;
 
-namespace GraphQLTest.Domain.Company
+namespace GraphQLFoundation.Models
 {
-    public class Customer
+    [DataContract]
+    public class CustomerDto
     {
-        [Key]
+        [DataMember]
         public int Id { get; set; }
+        [DataMember]
         public string FirstName { get; set; }
+        [DataMember]
         public string LastName { get; set; }
+        [DataMember]
         public DateTime DateOfBirth { get; set; }
-        public ICollection<Order> Orders { get; set; }
+        [DataMember]
+        public ICollection<OrderDto> Orders { get; set; }
     }
 }

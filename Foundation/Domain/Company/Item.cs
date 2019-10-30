@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GraphQLTest.Domain.Company
+namespace GraphQLFoundation.Domain.Company
 {
     public class Item
     {
