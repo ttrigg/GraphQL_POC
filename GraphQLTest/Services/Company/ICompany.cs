@@ -1,6 +1,4 @@
-﻿using GraphQLFoundation.Domain.Company;
-using GraphQLTest.Models;
-using System.Collections.Generic;
+﻿using GraphQLTest.Models;
 using System.Linq;
 using System.Threading.Tasks;
 
