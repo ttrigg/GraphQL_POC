@@ -7,8 +7,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using GraphiQl;
 using GraphQLFoundation.Domain.Company;
-using GraphQLFoundation.Services.Company;
-using GraphQLFoundation.AutoMapper;
+using GraphQLTest.AutoMapper;
+using GraphQLTest.Services.Company;
 
 namespace GraphQLTest
 {

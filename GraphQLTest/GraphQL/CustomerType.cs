@@ -1,5 +1,5 @@
 ﻿using GraphQL.Types;
-using GraphQLFoundation.Models;
+using GraphQLTest.Models;
 
 namespace GraphQLTest.GraphQL
 {

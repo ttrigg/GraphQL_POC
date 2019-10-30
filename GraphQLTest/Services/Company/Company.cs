@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using GraphQLFoundation.Domain.Company;
-using GraphQLFoundation.Models;
+using GraphQLTest.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace GraphQLFoundation.Services.Company
+namespace GraphQLTest.Services.Company
 {
     public class Company : ICompany
     {
@@ -47,7 +45,7 @@ namespace GraphQLFoundation.Services.Company
         #endregion
 
         #region Orders
-        
+
         public IQueryable<OrderDto> GetAllOrders() =>
             _companyDBContext.Orders
                 .ProjectTo<OrderDto>(_configurationProvider);

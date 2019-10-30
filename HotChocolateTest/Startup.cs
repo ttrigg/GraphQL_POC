@@ -68,7 +68,8 @@ namespace HotChocolateTest
 
             app.UseGraphQL();
 
-            app.UsePlayground();
+            // Editor location
+            app.UsePlayground("/api/editor");
         }
     }
 }

@@ -4,20 +4,20 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Runtime.Serialization;
 
-namespace GraphQLFoundation.Models
+namespace GraphQLTest.Models
 {
     [DataContract]
-    public class CustomerDto
+    public class OrderDto
     {
         [DataMember]
         public int Id { get; set; }
         [DataMember]
-        public string FirstName { get; set; }
+        public DateTime OrderDate { get; set; }
         [DataMember]
-        public string LastName { get; set; }
+        public decimal Taxes { get; set; }
         [DataMember]
-        public DateTime DateOfBirth { get; set; }
+        public decimal Total { get; set; }
         [DataMember]
-        public ICollection<OrderDto> Orders { get; set; }
+        public ICollection<LineItemDto> LineItems { get; set; }
     }
 }
